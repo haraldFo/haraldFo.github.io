@@ -1,0 +1,178 @@
+body         
+{ 
+background-color: #CCC;
+font-family: Helvetica, Arial;
+margin: 0 
+}
+
+/* Header Banner */ 
+#header      
+{ 
+width: 760px; 
+height: 120px; 
+background-image: url('../images/banner-logo.jpg'); 
+background-repeat: no-repeat 
+}
+#header td    
+{ 
+text-align: right;
+padding: 90px 40px 0 0
+}
+
+/* Horizontale Navigation */
+#navi_hor      
+{ 
+width: 720px; 
+height: 40px;
+background-color: #333
+}
+#navi    
+{ 
+margin-right: 5px
+}
+#navi td a:visited, #navi td a:active, #navi td a:link    
+{ 
+display: block;
+font-size: 12px;
+color: #CCC;
+margin-right: 2px;
+border-top: 1px solid #666;
+border-right: 1px solid #666;
+border-left: 1px solid #666;
+text-decoration: none;
+text-align: center;
+width: 100px; 
+line-height: 24px; 
+background-image: url('../images/button.gif'); 
+background-repeat: repeat-x 
+}
+#navi td a:hover
+{ 
+color: #E8E8E8;
+border-top: 1px solid #999;
+border-right: 1px solid #999;
+border-left: 1px solid #999
+}
+
+/* Tabelle vertikale Navigation und Inhaltsspalte */
+#haupt      
+{ 
+width: 720px; 
+background-color: #DDD
+}
+#navi_ver      
+{ 
+width: 160px;
+background-color: #E8E8E8;
+border-right: 1px solid #333;
+padding: 15px
+}
+#navi_ver a:visited, #navi_ver a:active, #navi_ver a:link    
+{ 
+display: block;
+font-size: 11px;
+color: #333;
+text-decoration: none;
+padding-left: 20px;
+line-height: 16px;
+background-image: url('../images/quad.gif'); 
+background-repeat: no-repeat 
+}
+#navi_ver a:hover
+{ 
+background-image: url('../images/quad-hover.gif');
+color: #999 
+}
+#navi_ver div
+{ 
+margin-bottom: 20px;
+border-bottom: 1px solid #333;
+padding: 10px 0 
+}
+
+/* Inhaltsspalte */
+#inhalt      
+{ 
+padding: 15px
+}
+
+/* Überschriften und Absätze */
+#inhalt h1, #inhalt h2     
+{ 
+font-size: 14px
+}
+#inhalt h1     
+{ 
+margin: -15px -15px 15px -15px;
+padding: 5px 5px 5px 15px;
+background-color: #eee;
+color: #333;
+border-bottom: 1px solid #333;
+letter-spacing: 2pt
+}
+#inhalt h2     
+{ 
+margin: 15px 0 3px 0;
+color: #CC6600;
+padding-bottom: 2px;
+border-bottom: 3px double #666;
+letter-spacing: 1pt
+}
+#inhalt p     
+{ 
+margin: 3px 0 15px 0;
+font-size: 13px;
+line-height: 150%;
+text-align: justify
+}
+
+/* allgemeine Links im Text */
+#inhalt a:visited, #inhalt a:active, #inhalt a:link    
+{ 
+color: #CC6600;
+text-decoration: underline
+}
+#inhalt a:hover
+{ 
+color: #666;
+text-decoration: none 
+}
+
+/* Footer */
+#footer      
+{ 
+font-size: 11px;
+width: 760px; 
+height: 60px;
+padding: 15px 0 0 40px; 
+background-image: url('../images/footer.jpg'); 
+background-repeat: no-repeat 
+}
+#footer a:visited, #footer a:active, #footer a:link    
+{ 
+color: #CCC
+}
+#footer a:hover
+{ 
+color: #E8E8E8 
+}
+
+/* Formatierung Beispiel-Suchformular */
+form
+{
+margin: 0
+}
+.suchbox, .suchbutton
+{
+font-family: Arial, Tahoma, Verdana;
+font-size: 11px
+}
+.suchbutton
+{
+background-color: #333;
+color: #ccc
+}
+.suchbox
+{
+background-color: #ccc
+}
